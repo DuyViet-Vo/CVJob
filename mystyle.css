@@ -1,0 +1,200 @@
+*{  
+    font-weight: 600;
+    font-family: 'Ibarra Real Nova', serif;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: auto;
+}
+.info{
+    line-height: 15px;
+}
+.container{
+    top: 30px;
+    float: left;
+    width: 50%;
+    position:absolute;
+}
+h1,h2{
+    text-transform: uppercase;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 140px;
+    padding: 10px;
+    object-fit: cover;
+}
+.container2{
+    
+    float: right;
+    width: 50%;
+    height: 1500px;
+    background-color: rgb(242, 251, 253);
+}
+.icon_select{
+    position: relative;
+    width: 60px;
+    height: 453px;
+    background-color: #00CCFF;
+    margin-left: 510px;
+    top: 30px;
+    border-radius: 30px;
+}
+.work_experience{
+    padding-top: 15px;
+    line-height: 2px;
+}
+.activate{
+    padding-top: 15px;
+    line-height: 2px;
+}
+.container .work_experience h3,
+.container .activate h3{
+    color: #00CCFF;
+    font-size: 30px;
+}
+.container .work_experience p,
+.container .activate p{
+    font-size: 20px;
+}
+.brith{
+    margin-top: 40px    ;
+    padding: 10px;
+    margin-left: 40px;
+    line-height: 2px;
+}
+.phonenumber{
+    margin-left: 40px;
+    line-height: 2px;
+    padding: 10px;
+}
+.email{
+    margin-left: 40px;
+    line-height: 2px;
+    padding: 10px;
+}
+.address{
+   
+    margin-left: 40px;
+    line-height: 2px;
+    padding: 10px;
+}
+.gender{
+    margin-left: 40px;
+    line-height: 2px;
+    padding: 10px;
+}
+
+i{
+    font-size: 25px;
+    color: white;
+}
+.date{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.phone{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email2{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.address_icon{
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gender_icon{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon_select2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color:  #00CCFF;
+    margin-left: 510px;
+    top: 630px;
+    border-radius: 30px;
+}
+.education_icon{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+.education{
+    margin-top: 160px;
+    margin-left: 50px;
+}
+.university{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.icon_select3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #00CCFF;
+    margin-left: 510px;
+    top: 880px;
+    border-radius: 30px;
+}
+.setting_icon{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+.skills{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.Certifications{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #00CCFF;
+    margin-left: 510px;
+    top: 1310px;
+    border-radius: 30px;
+}
+.Certifications-solid{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.language, .framework,.tools{
+    font-weight: 600;
+}
+ul{
+    font-size: 18px;
+}
+.describe{
+    margin-top: 40px;
+}
+a{
+    font-size: 22px;
+    font-weight: 500;
+}

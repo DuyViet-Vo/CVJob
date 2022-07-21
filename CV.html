@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <title>CV </title>
+   
+</head>
+<body>
+    <div id="app">
+    <div class="container">
+        <div id="img_face">
+            <img src="img/anhdaidien.jpg" >
+        </div>
+        <div class="info">
+        <h1 >{{ name}}</h1>
+        <h2>{{job}}</h2>
+        </div>
+        <div class="describe">
+            
+            <a>Dear, I am currently a 3rd year student at Danang 
+                <br> University of Technology and Education, majoring 
+                <br>in Information Technology. I want to apply for an
+                <br> internship at the Company to upgrade my skills and 
+                <br>improve myself to become a professional programmer.
+                <br>I believe that with my efforts to learn, I will contribute <br>
+                 to the development of the Company.</a>
+        </div>
+        <div class="work_experience"> 
+             <h3>Work experience</h3>
+             <P>{{ work }}</P>
+        </div>
+       <div class="activate">
+        <h3>Activate</h3>
+        <p>{{ activate}}</p>
+       </div>
+    </div>
+    <div class="container2">
+        <div class="brith">
+            <h3 >Date of birth</h3>
+            <p>{{ date }}</p>
+        </div>
+        <div class="phonenumber">
+            <h3 >Phone/Zalo</h3>
+            <p>{{ phone}}</p>
+        </div>
+        <div class="email">
+            <h3 >Email</h3>
+            <p>{{ email }}</p>
+        </div>
+        <div class="address">
+            <h3 >Address</h3>
+            <p>104 Pham Nhu Xuong Street, Hoa Khanh Nam, <p>Lien Chieu, Da Nang</p></p>
+        </div>
+        <div class="gender">
+            <h3 >Gender</h3>
+            <p>male</p>
+        </div>
+        <div class="education">
+            <h3 >Education</h3>
+            <h3 class="university"> University of Technical Education - University of Danang | AUG 2019 - Aug 2023</h3>
+            <p>Major: Information Technology(3-year students)</p>
+            <p>GPA: 2.89/4</p>
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <p class="language">Language:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+            </ul>
+            <p class="framework">Framework</p>
+            <ul>
+                <li>Vuejs</li>
+            </ul>
+            <p class="tools">Tools</p>
+            <ul>
+                <li>GitHub</li>
+            </ul>
+        </div>
+        <div class="Certifications-solid">
+            <h3>Certifications</h3>
+            <p>No</p>
+        </div>
+    </div>
+    <div class="icon_select">
+        <span class="date">
+            <i class="fa-solid fa-calendar-days"></i>
+        </span>
+        <span class="phone">
+            <i class="fa-solid fa-phone"></i>
+        </span>
+        <span class="email2">
+            <i class="fa-solid fa-square-envelope"></i>
+        </span>
+        <span class="address_icon">
+            <i class="fa-solid fa-location-dot"></i>
+        </span>
+        <span class="gender_icon">
+            <i class="fa-solid fa-user"></i>
+        </span>
+    </div>
+    <div class="icon_select2">
+        <span class="education_icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </span>
+    </div>
+    <div class="icon_select3">
+        <span class="setting_icon">
+             <i class="fa-solid fa-gear"></i>
+        </span>
+    </div>
+    <div class="Certifications">
+        <span class="setting_icon">
+            <i class="fa-solid fa-sun"></i>
+        </span>
+    </div>
+</div>
+<script src="cv.js"></script>
+</body>
+</html>
